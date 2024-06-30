@@ -1,15 +1,9 @@
-# vue-ts-acrodesign-mock-template
+# ai-desktop
 
-一个基于vue3+typescript+vite的模板，用于快速创建vue3项目，并集成vue-router、vuex、axios等常用插件，方便开发。
+AI桌面-AI资源导航
+目前AI产品层出不穷，但是要找到适合自己的网站需要花费时间尝试后，才知道网站用起来效果如何。
+基于此，个人想整个AI导航网站来满足这一个需求。
 
-包含库环境：
-- acro design vue
-- mock js
-- axios
-- vue-router
-- pinia
-- vue use
-- vue
 
 # Vue 3 + TypeScript + Vite
 

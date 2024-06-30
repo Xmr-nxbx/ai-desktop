@@ -1,5 +1,5 @@
 {
-  "name": "vue-ts-acrodesign-mock-template",
+  "name": "ai-desktop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^10.9.0",
     "axios": "^1.7.2",
     "mockjs": "^1.1.0",
     "pinia": "^2.1.7",
