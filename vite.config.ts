@@ -16,6 +16,9 @@ export default ({ mode }: { mode: string }) => {
           data: {
             title: ENV["VITE_APP_TITLE"],
             icon: ENV["VITE_APP_ICON"],
+            logo: ENV["VITE_APP_LOGO"],
+            load_name: ENV["VITE_APP_LOAD_NAME"],
+            load_description: ENV["VITE_APP_LOAD_DESCRIPTION"],
           },
           tags: [
             {
@@ -32,6 +35,14 @@ export default ({ mode }: { mode: string }) => {
                 content: ENV["VITE_APP_DESCRIPTION"],
               },
             },
+            {
+              tag: "link",
+              attrs: {
+                type: "text/css",
+                rel: "stylesheet",
+                href: ENV["VITE_APP_CSS"],
+              }
+            }
           ],
         },
       }),
