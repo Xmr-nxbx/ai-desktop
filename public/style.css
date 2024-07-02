@@ -16,9 +16,13 @@ body {
 .background .container {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
+  align-items: stretch;
   font-size: 16px;
-  margin-top: 50px;
+  margin-top: 80px;
+}
+
+.background .container > *{
+  text-align: center;
 }
 
 .background .container .logo {
@@ -33,6 +37,44 @@ body {
   margin: 1em 0;
   font-size: 3.2em;
   line-height: 1.1;
+  width: 100%;
+  text-align: center;
+  background-clip: text;
+  color: transparent;
+  background-image: 
+  linear-gradient(to right, #242424, 40%, transparent, 60%, #242424),
+    linear-gradient(to bottom, #1e90ff, #b399ff);
+  animation: moveBackground .7s linear infinite alternate-reverse;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: -70px 0;
+  }
+  10% {
+    background-position: -65px 0;
+  }
+  20% {
+    background-position: -50px 0;
+  }
+  30% {
+    background-position: -40px 0;
+  }
+  50% {
+    background-position: 0 0;
+  }
+  70% {
+    background-position: 40px 0;
+  }
+  80% {
+    background-position: 50px 0;
+  }
+  90% {
+    background-position: 65px 0;
+  }
+  100% {
+    background-position: 70px 0;
+  }
 }
 
 .background .container .author {
